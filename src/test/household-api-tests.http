@@ -1,0 +1,28 @@
+# Get All Households
+#GET http://localhost:8080/api/households
+
+# Get Household by Eircode
+#GET http://localhost:8080/api/households/{{eircode}}
+
+# Get Household by Eircode with Pets
+#GET http://localhost:8080/api/households/{{eircode}}/with-pets
+
+# Get Households with No Pets
+#GET http://localhost:8080/api/households/no-pets
+
+# Create a New Household
+#POST http://localhost:8080/api/households
+#Content-Type: application/json
+#
+#{
+#  "eircode": "A12BC34",
+#  "numberOfOccupants": 3,
+#  "maxNumberOfOccupants": 5,
+#  "ownerOccupied": true
+#}
+
+# Delete a Household
+#DELETE http://localhost:8080/api/households/A12BC34
+
+
+

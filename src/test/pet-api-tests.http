@@ -1,0 +1,55 @@
+# Get all pets
+GET http://localhost:8080/api/pets
+
+# Create a new pet
+#POST http://localhost:8080/api/pets
+#Content-Type: application/json
+#
+#{
+#  "name": "Buddy",
+#  "animalType": "Dog",
+#  "breed": "Golden Retriever",
+#  "age": 3,
+#  "householdEircode": "A12BC34"
+#}
+
+# Change Pet's Name
+#PATCH http://localhost:8080/api/pets/1/name
+#Content-Type: application/json
+#
+#{
+#  "newName": "new name"
+#}
+
+# Get Pet by ID
+#GET http://localhost:8080/api/pets/1
+
+# Update Pet Details
+#PUT http://localhost:8080/api/pets/1
+#Content-Type: application/json
+#
+#{
+#  "name": "Buddy",
+#  "animalType": "Dog",
+#  "breed": "Beagle",
+#  "age": 4,
+#  "household": null
+#}
+
+
+#  Delete Pet by ID
+
+#DELETE http://localhost:8080/api/pets/11
+
+# Find Pets by Animal Type
+#GET http://localhost:8080/api/pets/by-animal-type?animalType=Dog
+
+# Find Pets by Breed
+#GET http://localhost:8080/api/pets/by-breed?breed=Golden Retriever
+
+#  Get Names and Breeds Only
+#GET http://localhost:8080/api/pets/names-and-breeds
+
+#  Get Pet Statistics
+#GET http://localhost:8080/api/pets/statistics
+
